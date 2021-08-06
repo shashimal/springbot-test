@@ -2,7 +2,7 @@
 # FROM openjdk:8-jdk-alpine
 
 # For Java 11, try this
-FROM openjdk11
+FROM openjdk:8-jdk-alpine
 
 # Refer to Maven build -> finalName
 ARG JAR_FILE=target/spring-boot-web.jar
